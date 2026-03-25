@@ -121,7 +121,7 @@ GROUP BY Date_of_Journey;
 
 All database operations are handled via a reusable class:
 
-📄 See implementation: :contentReference[oaicite:0]{index=0}
+📄 Implementation: [`database.py`](./database.py)
 
 ### Key Methods
 
@@ -143,7 +143,7 @@ All database operations are handled via a reusable class:
 
 The project includes a demo script:
 
-📄 See: :contentReference[oaicite:1]{index=1}
+📄 Demo Script: [`crud_demo.py`](./crud_demo.py)
 
 This demonstrates:
 
@@ -158,7 +158,7 @@ This demonstrates:
 
 Dataset loading is handled via:
 
-📄 See: :contentReference[oaicite:2]{index=2}
+📄 Data Loader: [`data_loader.py`](./data_loader.py)
 
 Supports:
 
@@ -171,7 +171,7 @@ Supports:
 
 Main application flow:
 
-📄 See: :contentReference[oaicite:3]{index=3}
+📄 Application Entry Point: [`app.py`](./app.py)
 
 ### UI Sections
 
